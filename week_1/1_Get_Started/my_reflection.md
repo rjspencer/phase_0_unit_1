@@ -5,9 +5,10 @@
 * Describe what version control is and how GitHub helps with it.
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 * What doesn't make sense? What does?
-
 * What struggles did you have setting up git and GitHub? What did you learn in the process?
  
+
+
 I have been interested in web development for a while now, so I had heard of git a while ago.  Before I applied to DBC, I started on Michael Hartl's rails tutorial to make sure I could do it.  I already had a Github account and have learned to make branches and commits with bash.  What I did not know was that I could edit right on Github, nor how to use the desktop app.  
 
 When I started with git, it was pretty confusing until I found the right analogy: manual Dropbox.
