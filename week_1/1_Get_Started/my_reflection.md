@@ -5,23 +5,28 @@
 * Describe what version control is and how GitHub helps with it.
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 * What doesn't make sense? What does?
+
+
+
+
 * What struggles did you have setting up git and GitHub? What did you learn in the process?
  
-
-
 I have been interested in web development for a while now, so I had heard of git a while ago.  Before I applied to DBC, I started on Michael Hartl's rails tutorial to make sure I could do it.  I already had a Github account and have learned to make branches and commits with bash.  What I did not know was that I could edit right on Github, nor how to use the desktop app.  
 
 When I started with git, it was pretty confusing until I found the right analogy: manual Dropbox.
 
+
 * Write an explanation of and compare git and GitHub to a non-technical audience. 
 
 Imagine that under the hood Dropbox and Google Drive used the same software.  Github would be Dropbox/Drive and the software would be git.  However, git is a more technical version, like driving a stick shift car.  The driver has to choose when and how to sync files.  Git offers more power/features but is harder to use.
+
 
 * Describe what version control is and how GitHub helps with it.
 
 Version control is the process of managing the step by step building, maintaining, and improving process of anything with words like code, poetry, or books (but usually code).  Version control allows multiple people to work on sections of the final product at the same time and bring their revisions together.  Contributors can experiment on part of the project in a separate branch and then decide whether to dump their changes or add them back to the master.
 
 Github is simply a unified repository for all changes/revisions/branches that all contributors can utilize.  
+
 
 * Why do developers use version control (git)? Does that make sense to you? Why or why not?
 
