@@ -1,1 +1,8 @@
 /* include your css here */
+
+.content {
+    background-color: beige;
+}	
+h2 {
+  font-family: 'Rock Salt', cursive;
+}
