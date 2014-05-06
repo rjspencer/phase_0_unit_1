@@ -3,43 +3,43 @@ Define the following commands and describe how they work/what they do.
 
 
 #### add
-<!-- Your defnition here -->
+Add to file list to be synced to the repo on next push
 
 #### branch
 <!-- Your defnition here -->
 
 #### checkout
-<!-- Your defnition here -->
+Select working branch
 
 #### clone
-<!-- Your defnition here -->
+Copy a repo to your computer
 
 #### commit
-<!-- Your defnition here -->
+Stamp a group of changes with a date/message, but still keep them locally
 
 #### fetch
-<!-- Your defnition here -->
+Update remote files but do not merge them
 
 #### log
-<!-- Your defnition here -->
+Journal of commits
 
 #### merge
-<!-- Your defnition here -->
+Combine files from a different branch into working branch
 
 #### pull
-<!-- Your defnition here -->
+Update local files from remote and merge them with local
 
 #### push
-<!-- Your defnition here -->
+Update remote from local commits
 
 #### reset
-<!-- Your defnition here -->
+Remove from file list to be synced to the repo on next push
 
 #### rm
-<!-- Your defnition here -->
+Removes from working branch and computer
 
 #### status
-
+display if push/pull is needed
 
 ## Release 4: Git Workflow
 
@@ -47,4 +47,17 @@ Define the following commands and describe how they work/what they do.
 - Fetch changes
 - Commit locally
 
+SETUP
+git config —global user.name "Ryan Spencer" 
+git config —global user.email "rjspencer82@gmail.com"
+
+git add .
+git commit -m "MESSAGE"
+git push
+git fetch
+git commit -m "MESSAGE"
+
+
 ## Release 5: Reflection
+
+I feel like this is all pretty heavy, abstract stuff to be talking about right now.  We have yet to write any real code but we are talking about moving through commits with HEAD~4?  I think git is good, but that tutorial went to far.  
