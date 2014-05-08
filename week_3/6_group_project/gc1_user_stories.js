@@ -4,7 +4,6 @@ Group Project
 gc1_user_stories.js
 */
 
-/*
 USER STORY
 
 I want a function called "assert()" that can test any other segment of TRUE/FALSE code.  I also want it to be flexible enough to test many different TRUE/FALSE code segments at a time.  I want to be able to send this function 3 pieces of information:
@@ -23,4 +22,40 @@ As an example, I send several different TRUE pieces of code and a one FALSE that
 5 true
 6 true
 
-*/
+
+ Create the following functions and test to run through our new "assert()" function.
+
+Function: sum()
+Purpose: To add up numbers.
+
+Verify that sum() works properly:
+	Test 1: 
+	Verify that sum() is a function or give the error message "sum should be a Function."
+
+	Test 2:
+	Given the array oddLengthArray, verify that sum() comes up with 27 as the solution or give the error message "sum should return the sum of all elements in an array with an odd length."
+
+	Test 3:
+	Given the array evenLengthArray, verify that sum() comes up with 43 as the solution or give the error message "sum should return the sum of all elements in an array with an even length."
+
+Function: mean()
+Purpose: Find the average of a group of numbers.
+
+Verify that mean() works properly:
+	Test 4:
+	Given the array evenLengthArray, verify that sum() comes up with 43 as the solution or give the error message "mean should be a Function."
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
