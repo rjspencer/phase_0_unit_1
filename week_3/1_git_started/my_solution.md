@@ -60,4 +60,4 @@ git commit -m "MESSAGE"
 
 ## Release 5: Reflection
 
-I feel like this is all pretty heavy, abstract stuff to be talking about right now.  We have yet to write any real code but we are talking about moving through commits with HEAD~4?  I think git is good, but that tutorial went to far.  
+I feel like this is all pretty heavy, abstract stuff to be talking about right now.  We have yet to write any real code but we are talking about moving through commits with HEAD~4?  I think git is good, but that tutorial seemed a bit removed from what we are currently doing with git.  
