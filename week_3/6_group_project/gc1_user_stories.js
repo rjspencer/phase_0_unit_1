@@ -23,7 +23,10 @@ As an example, I send several different TRUE pieces of code and a one FALSE that
 6 true
 
 
- Create the following functions and test to run through our new "assert()" function.
+Create the following functions and test to run through our new "assert()" function.
+	Use these two arrays for testing.	
+		oddLengthArray is composed of 1, 2, 3, 4, 5, 5, 7.
+		evenLengthArray is composed of  4, 4, 5, 5, 6, 6, 6, 7.
 
 Function: sum()
 Purpose: To find the sum of any group of numbers.
