@@ -13,53 +13,74 @@ var terah = {
   eyeColor: "brown"
 }
 /* Pseudocode Section - write pseudocode for each challenge below.
-1. Define a variable adam and use object literal notation to assign this variable 
+x1. Define a variable adam and use object literal notation to assign this variable 
    the value of a JavaScript Object object with no properties.
 
-2. Give adam a name property with the value "Adam".
+   CREATE OBJECT adam = []
 
-3. Add a spouse property to terah and assign it the value of adam.
+x2. Give adam a name property with the value "Adam".
+  ADD TO adam > name: 'Adam'
 
-4. Change the value of the terah weight property to 125.
+x3. Add a spouse property to terah and assign it the value of adam.
+  ADD TO terah > spouse: adam
+  
+x4. Change the value of the terah weight property to 125.
+  SET terah(weight) to 125
 
-5. Remove the eyeColor property from terah.
+x5. Remove the eyeColor property from terah.
+  REMOVE eyecolor from terah
 
-6. Add a spouse property to adam and assign it the value of terah.
+x6. Add a spouse property to adam and assign it the value of terah.
+  ADD TO adam > spouse: terah
 
-7. Add a children property to terah and and use object literal notation to assign 
+x7. Add a children property to terah and and use object literal notation to assign 
    this variable the value of a JavaScript Object object with no properties
+  ADD TO terah > OBJECT children = []
 
-8. Add a carson property to the value of the terah children property and assign it 
+x8. Add a carson property to the value of the terah children property and assign it 
   the value of an object with the property name with a value of "Carson".
+  CREATE OBJECT carson [ name: 'Carson' ]
+  ADD TO terah.children > carson 
 
-9. Add a carter property to the value of the terah children property and assign it 
-   the value of an object with the property name with a value of "Carter".
+x9. Add a carter property to the value of the terah children property and assign it 
+   the value of an object with the property name with a value of "Carter".  
+   CREATE OBJECT carter [ name: 'Carter' ]
+   ADD TO terah.children > carter
 
-10. Add a colton property to the value of the terah children property and assign it 
+x10. Add a colton property to the value of the terah children property and assign it 
     the value of an object with the property name with a value of "Colton".
+    CREATE OBJECT colton[name: 'Colton']
+   ADD TO terah.children > colton
 
 11. Add a children property to adam and assign it the value of terah children.
-
+  ADD TO adam > children: terah.children(ALL)
 
 */
 
 // __________________________________________
 // Write your code below.
 
-
-
-
-
-
-
+var adam = {};
+adam.name = 'Adam';
+terah.spouse = adam;
+terah.weight = 125;
+delete terah.eyeColor;
+adam.spouse = terah;
+//var children = new Array();
+terah.children = new Object();
+terah.children.carson = new Object();
+terah.children.carson.name = 'Carson';
+terah.children.carter = new Object();
+terah.children.carter.name = 'Carter';
+terah.children.colton = new Object();
+terah.children.colton.name = 'Colton';
+adam.children = terah.children;
 
 // __________________________________________
 // Reflection: Use the reflection guidelines
-// 
-// 
-// 
-// 
-// 
+/*
+I feel that Object literals and Arrays make sense as a concept, but I have done a bit of programming before.  My biggest struggle is syntax.  I felt the same way about the last project.  
+*/
 // 
 
 
