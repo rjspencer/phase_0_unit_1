@@ -26,7 +26,7 @@ As an example, I send several different TRUE pieces of code and a one FALSE that
  Create the following functions and test to run through our new "assert()" function.
 
 Function: sum()
-Purpose: To add up numbers.
+Purpose: To find the sum of any group of numbers.
 
 Verify that sum() works properly:
 	Test 1: 
@@ -38,15 +38,35 @@ Verify that sum() works properly:
 	Test 3:
 	Given the array evenLengthArray, verify that sum() comes up with 43 as the solution or give the error message "sum should return the sum of all elements in an array with an even length."
 
+
+
 Function: mean()
-Purpose: Find the average of a group of numbers.
+Purpose: Find the average of any group of numbers.
 
 Verify that mean() works properly:
 	Test 4:
-	Given the array evenLengthArray, verify that sum() comes up with 43 as the solution or give the error message "mean should be a Function."
+	Verify that mean() is a function or give the error message "mean should be a Function."
+
+	Test 5:
+	Given the array oddLengthArray, verify that mean() comes up with 3.857142857142857 as the solution or give the error message "mean should return the average of all elements in an array with an odd length."
+
+	Test 6:
+	Given the array evenLengthArray, verify that mean() comes up with 5.375 as the solution or give the error message "mean should return the average of all elements in an array with an odd length."
 
 
 
+Function: median()
+Purpose: Find the median of any group of numbers.  If the group of numbers is even, average the middle 2 numbers.
+
+Verify that median() works properly:
+	Test 7:
+	Verify that median() is a function or give the error message "mean should be a Function."
+
+	Test 8:
+	Given the array oddLengthArray, verify that median() comes up with 4 as the solution or give the error message "mean should return the average of all elements in an array with an odd length."
+
+	Test 9:
+	Given the array evenLengthArray, verify that median() comes up with 5.5 as the solution or give the error message "median should return the median value of all elements in an array with an even length."
 
 
 

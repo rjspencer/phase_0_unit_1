@@ -1,35 +1,42 @@
 // I paired [by myself, with:] on this challenge.
-
-
+Ryan Spencer
+Molly Huerster
 
 
 // Pseudocode
-// 
-// 
-// 
-// 
-
+// Set secretNumber equal to 1
+// Set secretNumber equal to 7
+// Set password equal to "any string"
+// Set password equal to "just open the door"
+// Set allowedIn equal to true
+// Set allowedIn equal to false
+// Create an array called "members"
+// Add "John" as first element of members
+// Set members[3] equal to "Mary"
 
 // __________________________________________
 // Write your code below.
-
-
-
-
-
-
+var secretNumber = 1;
+var secretNumber = 7;
+var password = "any string";
+var password = "just open the door";
+var allowedIn = true;
+var allowedIn = false;
+var members = ["Molly","Ryan"];
+members.unshift('John');
+//members[3] = "Mary";
 
 // __________________________________________
 // Refactored Code: Include a refactored version (or justification of your original code) here. 
-
-
+members.push("Mary");
+//Using .push works well if the array already contains exactly three elements and is nondestructive, while assigning members[3] replaces whatever was already at that index. However, if the array contained any larger number of elements, members[3] would be the obvious choice.
 
 
 
 // __________________________________________
 // Reflection: Use the reflection guidelines to write a reflection here. 
 // 
-// 
+// Mary was good to work with.  She was open to trying a different method, Nitrous.io.  We failed at it, but I applaud her 
 // 
 // 
 // 

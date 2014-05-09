@@ -10,7 +10,7 @@ Fast forward to today and browser fragmentation is greater than ever.  5 major d
 Yes.  One trade doesn't build a house.  Specialization of files makes them more efficient and allows developers/designers to specialize.
 
 * Do you like the new HTML5 elements, such as `<header>`, `footer`, and `nav`? Why or why not?
-I thought I knew HTML.  This blew my mind.  If I could make one change to HTML, this was it.  Its not about less code, its about making it easier to read.  The slight reduction in letters likely makes a negligible difference in speed.
+I thought I knew HTML.  This blew my mind.  If I could make one change to HTML, this was it.  Its not about less code, its about making it easier to read.  The slight reduction in letters likely makes a negligible difference in speed, but a profound difference in readability.
 
 * Why is reset.css necessary? 
 
